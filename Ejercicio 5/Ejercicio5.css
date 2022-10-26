@@ -1,0 +1,119 @@
+body {
+    padding: 150px;
+    font-family: Helvetica, sans-serif
+}
+
+
+#principal {
+    text-align: left;
+    margin-left: 17%;
+    margin-right: 17%;
+}
+
+#cabecera0 {
+    background-color: rgb(23, 44, 62);
+    height: 40px;
+    width: auto;
+}
+
+#cabecera {
+    background-image: url("imagenes/1569332790_257144_1569592970_noticia_normal.jpg");
+    height: 500px;
+    width: 1000px;
+
+}
+
+#imagen1 {
+    background-image: url("imagenes/1569332790_257144_1569593177_sumario_normal.jpg");
+    height: 500px;
+    width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: -150px;
+
+
+
+}
+
+#imagen2 {
+    background-image: url("imagenes/1569332790_257144_1569593282_sumario_normal.jpg");
+    height: 500px;
+    width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: -150px;
+
+}
+
+#imagen3 {
+    background-image: url("imagenes/1569332790_257144_1569593370_sumario_normal.jpg");
+    height: 500px;
+    width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: -150px;
+
+}
+
+#imagen4 {
+    background-image: url("imagenes/1569332790_257144_1569593488_sumario_normal.jpg");
+    height: 500px;
+    width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: -150px;
+
+}
+
+#imagen5 {
+    margin-left: -150px;
+    background-image: url("imagenes/1569332790_257144_1569593436_sumario_normal.jpg");
+    height: 500px;
+    width: 1000px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: -150px;
+
+}
+
+#imagen6 {
+    background-image: url("imagenes/banner-thinkbig.png");
+    height: 90px;
+    width: 585px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    margin-left: -150px;
+    
+
+}
+
+
+#pie {
+    height: 300px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+}
+
+p {
+    margin-top: 30px;
+    font-weight: lighter;
+    color: rgb(70, 70, 70);
+    font-size: 15pt;
+    line-height: 26pt;
+}
+
+h2 {
+    color: rgb(170, 150, 150);
+    font-size: 10pt;
+}
+
+h3 {
+    color: rgb(10, 10, 10);
+    font-size: 22pt;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
