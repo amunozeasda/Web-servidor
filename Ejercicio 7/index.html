@@ -7,39 +7,95 @@
     <link rel="stylesheet" href="main.css">
 </head>
 
+<style>
+    .flex-container {
+        display: flex;
+        flex-flow: row wrap;
+        align-items: center;
+        background-color: rgb(158, 0, 0);
+    }
+
+    .flex-container>div {
+        background-color: rgb(158, 0, 0);
+        width: auto;
+        margin: 50px;
+        text-align: center;
+        font-size: 14pt;
+        color: rgba(240, 255, 255, 0.807);
+    }
+</style>
+
 <body>
     <header>
         <h1>Portfolio</h1>
     </header>
     <section>
         <h2>Cuadros</h2>
-        <a href="imagenes/imagen1.jpg" target="_blank">
-            <img alt="Imagen 1" title="Cuadro 1" src="imagenes/imagen1.jpg">
-        </a>
-        <a href="imagenes/imagen 3.jpg" target="_blank">
-            <img alt="Imagen 3" title="Cuadro 2" src="imagenes/imagen 3.jpg">
-        </a>
-        <a href="imagenes/imagen 4.jpg" target="_blan">
-            <img alt="Imagen 4" title="Cuadro 3" src="imagenes/imagen 4.jpg">
-        </a>
-        <a href="imagenes/imagen 5.jpg" target="_blank">
-            <img alt="Imagen 5" title="Cuadro 4" src="imagenes/imagen 5.jpg">
-        </a>
-        <a href="imagenes/imagen 2.gif" target="_blank">
-            <img alt="Imagen 2" title="Bob Ross" src="imagenes/imagen 2.gif">
-        </a>
-        <a href="imagenes/imagen 6.jpg" target="_blank">
-            <img alt="Imagen 6" title="Cuadro 5" src="imagenes/imagen 6.jpg">
-        </a>
-        <a href="imagenes/imagen 7.png" target="_blank">
-            <img alt="Imagen 7" title="Cuadro 6" src="imagenes/imagen 7.png">
-        </a>
-        <a href="imagenes/imagen 8.jpg" target="_blank">
-            <img alt="Imagen 8" title="Cuadro 7" src="imagenes/imagen 8.jpg">
-        </a>
-        <a href="imagenes/imagen 9.jpg" target="_blank">
-            <img alt="Imagen 9" title="Cuadro 8" src="imagenes/imagen 9.jpg">
-        </a>
+        <div class="flex-container">
+
+            <div>
+                <a href="imagenes/imagen1.jpg" target="_blank">
+                    <img alt="Imagen 1" title="Cuadro 1" src="imagenes/imagen1.jpg">
+                </a>
+                <p>Acuarela</p>
+            </div>
+
+            <div>
+                <a href="imagenes/imagen 3.jpg" target="_blank">
+                    <img alt="Imagen 3" title="Cuadro 2" src="imagenes/imagen 3.jpg">
+                </a>
+                <p>Acrílico</p>
+            </div>
+
+            <div>
+                <a href="imagenes/imagen 4.jpg" target="_blan">
+                    <img alt="Imagen 4" title="Cuadro 3" src="imagenes/imagen 4.jpg">
+                </a>
+                <p>Acuarela rota</p>
+            </div>
+
+            <div>
+                <a href="imagenes/imagen 5.jpg" target="_blank">
+                    <img alt="Imagen 5" title="Cuadro 4" src="imagenes/imagen 5.jpg">
+                </a>
+                <p>Acuarela Rota</p>
+            </div>
+
+            <div>
+                <a href="imagenes/imagen 2.gif" target="_blank">
+                    <img alt="Imagen 2" title="Bob Ross" src="imagenes/imagen 2.gif">
+                </a>
+                <p>Bob Ross </p>
+            </div>
+
+            <div>
+                <a href="imagenes/imagen 6.jpg" target="_blank">
+                    <img alt="Imagen 6" title="Cuadro 5" src="imagenes/imagen 6.jpg">
+                </a>
+                <p>Acuarela Rota</p>
+            </div>
+
+            <div>
+                <a href="imagenes/imagen 7.png" target="_blank">
+                    <img alt="Imagen 7" title="Cuadro 6" src="imagenes/imagen 7.png">
+                </a>
+                <p>Acrílico</p>
+            </div>
+
+            <div>
+                <a href="imagenes/imagen 8.jpg" target="_blank">
+                    <img alt="Imagen 8" title="Cuadro 7" src="imagenes/imagen 8.jpg">
+                </a>
+                <p>Óleo</p>
+            </div>
+
+            <div>
+                <a href="imagenes/imagen 9.jpg" target="_blank">
+                    <img alt="Imagen 9" title="Cuadro 8" src="imagenes/imagen 9.jpg">
+                </a>
+                <p>Óleo</p>
+            </div>
+        </div>
     </section>
 
 </body>
